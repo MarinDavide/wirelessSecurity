@@ -1,0 +1,322 @@
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 54464 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0155 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Read UDP fin failed: Connection refused
+[  1] Read UDP fin failed: Connection refused
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 51304 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0156 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-9.8066 sec  1.25 MBytes  1.07 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 33669 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0156 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0147 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 35965 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0155 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-9.9637 sec  1.25 MBytes  1.06 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 58366 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0155 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0167 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 50907 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0155 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0114 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 47758 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0156 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0166 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 51732 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0157 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0121 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 34009 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0156 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0139 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 45966 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0156 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-9.9076 sec  1.25 MBytes  1.06 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 40533 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0156 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0155 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 34832 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0157 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0104 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 44726 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0156 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.0102 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
+davide@MSI:~$ iperf -c 10.21.224.97 -i 1 -u
+------------------------------------------------------------
+Client connecting to 10.21.224.97, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.00 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.21.224.90 port 36622 connected with 10.21.224.97 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 1.0000-2.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 2.0000-3.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 3.0000-4.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 4.0000-5.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 5.0000-6.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 6.0000-7.0000 sec   129 KBytes  1.06 Mbits/sec
+[  1] 7.0000-8.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 8.0000-9.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 9.0000-10.0000 sec   128 KBytes  1.05 Mbits/sec
+[  1] 0.0000-10.0157 sec  1.25 MBytes  1.05 Mbits/sec
+[  1] Sent 895 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-9.9923 sec  1.25 MBytes  1.05 Mbits/sec   0.000 ms 0/894 (0%)
