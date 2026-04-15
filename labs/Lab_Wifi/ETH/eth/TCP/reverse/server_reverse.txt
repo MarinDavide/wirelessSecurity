@@ -1,0 +1,136 @@
+antonio@anto-kubuntu:~$ iperf -s -r -i 1
+WARNING: option -r is not valid for server mode
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+[  1] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 60400 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-1.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  1] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 4.0000-5.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  1] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  1] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 9.0000-10.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  1] 0.0000-10.0497 sec   113 MBytes  94.0 Mbits/sec
+[  2] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 43502 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  2] 0.0000-1.0000 sec  11.5 MBytes  96.5 Mbits/sec
+[  2] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  2] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  2] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  2] 4.0000-5.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  2] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  2] 6.0000-7.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  2] 7.0000-8.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  2] 8.0000-9.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  2] 9.0000-10.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  2] 0.0000-10.0469 sec   113 MBytes  94.0 Mbits/sec
+[  3] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 47760 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  3] 0.0000-1.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  3] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  3] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  3] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  3] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  3] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  3] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  3] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  3] 8.0000-9.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  3] 9.0000-10.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  3] 0.0000-10.0325 sec   112 MBytes  94.1 Mbits/sec
+[  4] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 32854 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  4] 0.0000-1.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  4] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  4] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  4] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  4] 4.0000-5.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  4] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  4] 6.0000-7.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  4] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  4] 8.0000-9.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  4] 9.0000-10.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  4] 0.0000-10.0326 sec   112 MBytes  94.1 Mbits/sec
+[  5] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 45596 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  5] 0.0000-1.0000 sec  11.5 MBytes  96.5 Mbits/sec
+[  5] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  5] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  5] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  5] 4.0000-5.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  5] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  5] 6.0000-7.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  5] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  5] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  5] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  5] 0.0000-10.0310 sec   112 MBytes  94.1 Mbits/sec
+[  6] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 39694 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  6] 0.0000-1.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  6] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  6] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  6] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  6] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  6] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  6] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  6] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  6] 8.0000-9.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  6] 9.0000-10.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  6] 0.0000-10.0322 sec   112 MBytes  94.1 Mbits/sec
+sh[  7] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 51524 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  7] 0.0000-1.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  7] 1.0000-2.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  7] 2.0000-3.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  7] 3.0000-4.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  7] 4.0000-5.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  7] 5.0000-6.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  7] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  7] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  7] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  7] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  7] 0.0000-10.0344 sec   112 MBytes  94.0 Mbits/sec
+[  8] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 39356 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  8] 0.0000-1.0000 sec  11.5 MBytes  96.5 Mbits/sec
+[  8] 1.0000-2.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  8] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  8] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  8] 4.0000-5.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  8] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  8] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  8] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  8] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  8] 9.0000-10.0000 sec  11.0 MBytes  92.3 Mbits/sec
+[  8] 0.0000-10.0343 sec   112 MBytes  94.0 Mbits/sec
+[  9] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 59630 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[  9] 0.0000-1.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  9] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  9] 2.0000-3.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  9] 3.0000-4.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[  9] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  9] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  9] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  9] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  9] 8.0000-9.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[  9] 9.0000-10.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[  9] 0.0000-10.0318 sec   112 MBytes  94.1 Mbits/sec
+[ 10] local 169.254.64.70 port 5001 connected with 169.254.21.153 port 44880 (reverse)
+[ ID] Interval       Transfer     Bandwidth
+[ 10] 0.0000-1.0000 sec  11.4 MBytes  95.4 Mbits/sec
+[ 10] 1.0000-2.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[ 10] 2.0000-3.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[ 10] 3.0000-4.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[ 10] 4.0000-5.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[ 10] 5.0000-6.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[ 10] 6.0000-7.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[ 10] 7.0000-8.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[ 10] 8.0000-9.0000 sec  11.1 MBytes  93.3 Mbits/sec
+[ 10] 9.0000-10.0000 sec  11.2 MBytes  94.4 Mbits/sec
+[ 10] 0.0000-10.0301 sec   112 MBytes  94.1 Mbits/sec
