@@ -16,6 +16,7 @@ This folder contains Python scripts designed to automate and simplify network ba
 ## How to Use
 
 ### Step 1: Start the Server
+
 You must always start the server first on the machine that will act as the listener.
 
 - Open your terminal and run `python server.py` (or run `script.py` and type "server").
@@ -23,6 +24,7 @@ You must always start the server first on the machine that will act as the liste
 - Keep the terminal open and running.
 
 ### Step 2: Start the Client
+
 On your second machine, you will run the client to send the traffic and measure the bandwidth.
 
 - Open your terminal and run `python client.py` (or run `script.py` and type "client").

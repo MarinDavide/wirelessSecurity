@@ -8,7 +8,7 @@ def main():
 
     cmd = ( 
         ["iperf", "-c", ip, "-i", "1"] 
-        + (["-u", "-b", "0"] if proto == "udp" else []) 
+        + (["-u", "-b", "1000M"] if proto == "udp" else []) 
         + (["-R"] if method == "reverse" else []) 
     ) 
     log_file, tputs = f"log_{proto}_{ip}.txt", [] 

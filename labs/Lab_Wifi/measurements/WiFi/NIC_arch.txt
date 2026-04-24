@@ -1,31 +1,11 @@
-Settings for enp0s13f0u1u4:
-	Supported ports: [ TP	 MII ]
-	Supported link modes:   10baseT/Half 10baseT/Full
-	                        100baseT/Half 100baseT/Full
-	                        1000baseT/Half 1000baseT/Full
-	Supported pause frame use: No
-	Supports auto-negotiation: Yes
-	Supported FEC modes: Not reported
-	Advertised link modes:  10baseT/Half 10baseT/Full
-	                        100baseT/Half 100baseT/Full
-	                        1000baseT/Full
-	Advertised pause frame use: No
-	Advertised auto-negotiation: Yes
-	Advertised FEC modes: Not reported
-	Link partner advertised link modes:  10baseT/Half 10baseT/Full
-	                                     100baseT/Half 100baseT/Full
-	                                     1000baseT/Half 1000baseT/Full
-	Link partner advertised pause frame use: No
-	Link partner advertised auto-negotiation: Yes
-	Link partner advertised FEC modes: Not reported
-	Speed: 1000Mb/s
-	Duplex: Full
-	Auto-negotiation: on
-	Port: MII
-	PHYAD: 32
-	Transceiver: internal
-	Supports Wake-on: pumbg
-	Wake-on: g
-        Current message level: 0x00007fff (32767)
-                               drv probe link timer ifdown ifup rx_err tx_err tx_queued intr tx_done rx_status pktdata hw wol
-	Link detected: yes
+Connected to b4:7c:a6:d3:17:4f (on wlan0)
+	SSID: TIM-42281955
+	freq: 5200.0
+	RX: 3010110839 bytes (4959106 packets)
+	TX: 761508440 bytes (2821663 packets)
+	signal: -43 dBm
+	rx bitrate: 1921.5 MBit/s 160MHz EHT-MCS 9 EHT-NSS 2 EHT-GI 0
+	tx bitrate: 2593.5 MBit/s 160MHz EHT-MCS 12 EHT-NSS 2 EHT-GI 0
+	bss flags: short-preamble short-slot-time
+	dtim period: 1
+	beacon int: 100
